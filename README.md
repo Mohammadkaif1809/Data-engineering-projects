@@ -124,39 +124,6 @@ The main goals of this repository are to:
 ---
 
 
-## 📚 Project Philosophy
-
-These projects focus on **building**, not just following tutorials.
-
-For each project, the objective is to understand:
-
-1. Where the data comes from
-2. How the data is ingested
-3. How data quality is checked
-4. How the data is transformed
-5. Where the processed data is stored
-6. How the data can be queried and analyzed
-7. How the pipeline can eventually be automated and scaled
-
----
-
-## 🔮 Future Projects
-
-Planned projects will progressively introduce:
-
-* API → Database pipelines
-* Automated ETL pipelines
-* Incremental data loading
-* Data validation and logging
-* Data warehouses
-* Star schema and dimensional modeling
-* Apache Airflow
-* Dockerized pipelines
-* Apache Spark
-* Cloud-based data pipelines
-
----
-
 ## 👨‍💻 Author
 
 **Mohammad Kaif**
