@@ -1,0 +1,365 @@
+product_id,tag
+1,beauty
+1,mascara
+2,beauty
+2,eyeshadow
+3,beauty
+3,face powder
+4,beauty
+4,lipstick
+5,beauty
+5,nail polish
+6,fragrances
+6,perfumes
+7,fragrances
+7,perfumes
+8,fragrances
+8,perfumes
+9,fragrances
+9,perfumes
+10,fragrances
+10,perfumes
+11,furniture
+11,beds
+12,furniture
+12,sofas
+13,furniture
+13,bedside tables
+14,furniture
+14,office chairs
+15,furniture
+15,bathroom
+16,fruits
+17,meat
+18,pet supplies
+18,cat food
+19,meat
+20,cooking essentials
+21,vegetables
+22,pet supplies
+22,dog food
+23,dairy
+24,seafood
+25,vegetables
+26,vegetables
+27,condiments
+28,desserts
+29,beverages
+30,fruits
+31,fruits
+32,dairy
+33,fruits
+34,beverages
+34,coffee
+35,vegetables
+36,health supplements
+37,vegetables
+38,grains
+39,beverages
+40,fruits
+41,household essentials
+42,beverages
+43,home decor
+43,swing
+44,home decor
+44,photo frame
+45,home decor
+45,artificial plants
+46,home decor
+46,plant accessories
+47,home decor
+47,lighting
+48,kitchen tools
+48,utensils
+49,drinkware
+49,cups
+50,kitchen tools
+50,utensils
+51,kitchen appliances
+51,blenders
+52,cookware
+52,woks
+53,kitchen tools
+53,cutting boards
+54,kitchen tools
+54,juicers
+55,kitchen tools
+55,slicers
+56,kitchen appliances
+56,cooktops
+57,kitchen tools
+57,strainers
+58,kitchen tools
+58,utensils
+59,drinkware
+59,glasses
+60,kitchen tools
+60,graters
+61,kitchen appliances
+61,blenders
+62,kitchen tools
+62,ice cube trays
+63,kitchen tools
+63,strainers
+64,kitchen tools
+64,cutlery
+65,kitchen tools
+65,storage
+66,kitchen appliances
+66,microwaves
+67,kitchen tools
+67,organization
+68,cookware
+68,pans
+69,dinnerware
+69,plates
+70,kitchen tools
+70,tongs
+71,cookware
+71,pots
+72,kitchen tools
+72,turners
+73,kitchen tools
+73,organization
+74,kitchen tools
+74,utensils
+75,serveware
+75,trays
+76,kitchen tools
+76,baking
+77,kitchen tools
+77,peelers
+78,laptops
+78,apple
+79,laptops
+80,laptops
+81,laptops
+82,laptops
+83,clothing
+83,men's shirts
+84,clothing
+84,men's t-shirts
+85,clothing
+85,men's shirts
+86,clothing
+86,men's shirts
+87,clothing
+87,men's shirts
+88,footwear
+88,athletic shoes
+89,footwear
+89,sports cleats
+90,footwear
+90,casual shoes
+91,footwear
+91,athletic shoes
+92,footwear
+92,casual shoes
+93,watches
+93,leather watches
+94,watches
+94,luxury watches
+95,watches
+95,luxury watches
+96,watches
+96,luxury watches
+97,watches
+97,luxury watches
+98,watches
+98,luxury watches
+99,electronics
+99,smart speakers
+100,electronics
+100,wireless earphones
+101,electronics
+101,over-ear headphones
+102,electronics
+102,wireless chargers
+103,electronics
+103,smart speakers
+104,electronics
+104,chargers
+105,electronics
+105,power banks
+106,electronics
+106,smartwatches
+107,electronics
+107,wireless earphones
+108,electronics
+108,phone accessories
+109,electronics
+109,camera accessories
+110,electronics
+110,selfie accessories
+111,electronics
+111,selfie accessories
+112,electronics
+112,camera accessories
+113,motorcycles
+114,motorcycles
+114,sportbikes
+115,motorcycles
+115,sportbikes
+116,motorcycles
+116,scooters
+117,motorcycles
+117,sportbikes
+118,personal care
+118,hand soap
+119,personal care
+119,body wash
+120,personal care
+120,body lotion
+121,smartphones
+121,apple
+122,smartphones
+122,apple
+123,smartphones
+123,apple
+124,smartphones
+124,apple
+125,smartphones
+125,oppo
+126,smartphones
+126,oppo
+127,smartphones
+127,oppo
+128,smartphones
+128,realme
+129,smartphones
+129,realme
+130,smartphones
+130,realme
+131,smartphones
+131,samsung galaxy
+132,smartphones
+132,samsung galaxy
+133,smartphones
+133,samsung galaxy
+134,smartphones
+134,vivo
+135,smartphones
+135,vivo
+136,smartphones
+136,vivo
+137,sports equipment
+137,american football
+138,sports equipment
+138,baseball
+139,sports equipment
+139,baseball
+140,sports equipment
+140,basketball
+141,sports equipment
+141,basketball
+142,sports equipment
+142,cricket
+143,sports equipment
+143,cricket
+144,sports equipment
+144,cricket
+145,sports equipment
+145,cricket
+146,sports equipment
+146,badminton
+147,sports equipment
+147,football
+148,sports equipment
+148,golf
+149,sports equipment
+149,golf
+150,sports equipment
+150,baseball
+151,sports equipment
+151,tennis
+152,sports equipment
+152,tennis
+153,sports equipment
+153,volleyball
+154,eyewear
+154,sunglasses
+155,eyewear
+155,sunglasses
+156,eyewear
+156,sunglasses
+157,eyewear
+157,party glasses
+158,eyewear
+158,sunglasses
+159,electronics
+159,tablets
+160,electronics
+160,tablets
+161,electronics
+161,tablets
+162,clothing
+162,dresses
+163,clothing
+163,girls' dresses
+164,clothing
+164,dresses
+165,clothing
+165,dresses
+166,clothing
+166,dresses
+167,sedans
+167,vehicles
+168,sedans
+168,sports cars
+168,vehicles
+169,hatchbacks
+169,compact cars
+169,vehicles
+170,suvs
+170,vehicles
+171,minivans
+171,vehicles
+172,fashion accessories
+172,handbags
+173,fashion accessories
+173,leather bags
+174,fashion accessories
+174,designer bags
+175,fashion accessories
+175,backpacks
+176,fashion accessories
+176,handbags
+177,clothing
+177,gowns
+178,clothing
+178,corsets
+178,skirts
+179,clothing
+179,corsets
+179,skirts
+180,clothing
+180,dresses
+181,clothing
+181,suits
+182,fashion accessories
+182,earrings
+183,fashion accessories
+183,earrings
+184,fashion accessories
+184,earrings
+185,footwear
+185,slippers
+186,footwear
+186,heel shoes
+187,footwear
+187,women's shoes
+188,footwear
+188,casual shoes
+189,footwear
+189,women's shoes
+190,watches
+190,luxury watches
+191,watches
+191,luxury watches
+192,watches
+192,luxury watches
+192,women's watches
+193,watches
+193,women's watches
+194,watches
+194,women's watches
