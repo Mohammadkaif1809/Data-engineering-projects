@@ -1,135 +1,84 @@
-# Data Engineering Projects
+# 🚀 Data Engineering Projects
 
-A collection of hands-on **Data Engineering projects** built to learn and demonstrate real-world data engineering concepts, tools, and workflows.
+A collection of hands-on Data Engineering projects built to learn and demonstrate real-world data engineering concepts, tools, and workflows. 
 
-The projects in this repository progressively cover different stages of a data engineering pipeline — from **data ingestion and transformation** to **databases, SQL analytics, data warehousing, orchestration, and distributed processing**.
-
----
-
-## 🚀 Projects
-
-### 1. E-Commerce ETL Pipeline
-
-**Tech Stack:** Python, Pandas, MySQL, SQL
-
-A complete ETL pipeline that processes messy e-commerce sales data and loads the cleaned and transformed data into MySQL for analysis.
-
-**Pipeline:**
-
-
-**Key Concepts:**
-
-* CSV data ingestion
-* Data cleaning and validation
-* Missing-value handling
-* Duplicate detection
-* Data transformation
-* Pandas
-* Python → MySQL integration
-* MySQL database and table creation
-* Batch data loading with `executemany()`
-* SQL aggregation
-* `GROUP BY` / `HAVING`
-* Subqueries
-* Date-based analysis
-* Window functions
-* `RANK()`
-* `ROW_NUMBER()`
-* `LAG()`
-* Running totals
-* Revenue and customer analytics
+The projects progressively cover data ingestion, transformation, databases, SQL analytics, APIs, data modeling, orchestration, distributed processing, and cloud technologies.
 
 ---
 
 ## 🛠️ Technology Stack
 
-The projects in this repository use and will progressively introduce:
-
-### Programming & Data Processing
-
-* Python
-* Pandas
-* NumPy
-
-### Databases & SQL
-
-* MySQL
-* PostgreSQL
-* SQL
-* Data Warehousing
-
-### Data Engineering Tools
-
-* Git & GitHub
-* Docker
-* Apache Airflow
-* Apache Spark
-
-### Cloud & Big Data
-
-* Cloud storage
-* Cloud databases
-* Distributed data processing
+| Category | Technologies |
+| :--- | :--- |
+| **Languages & Processing** | Python, Pandas, NumPy, Requests |
+| **Databases & SQL** | MySQL, PostgreSQL |
+| **Orchestration & DevOps** | Git, GitHub, Docker, Apache Airflow |
+| **Big Data & Cloud** | Apache Spark, Cloud Storage, Cloud Databases |
 
 ---
 
 ## 📈 Learning Roadmap
 
-The projects are being developed progressively:
+Python ➔ Pandas ➔ SQL & Databases ➔ ETL Pipelines ➔ APIs & Ingestion
+➔ Data Modeling ➔ Incremental Pipelines ➔ Data Warehousing
+➔ Airflow ➔ Docker ➔ Apache Spark ➔ Cloud
 
-```text
-                    Data Engineering Journey
 
-                         Python
-                            ↓
-                         Pandas
-                            ↓
-                    SQL & Databases
-                            ↓
-                      ETL Pipelines
-                            ↓
-                     APIs & Ingestion
-                            ↓
-                  Incremental Pipelines
-                            ↓
-                   Data Warehousing
-                            ↓
-                 Airflow & Orchestration
-                            ↓
-                       Docker
-                            ↓
-                    Apache Spark
-                            ↓
-                         Cloud
-```
-
-Each project is intended to build on the concepts learned in the previous one.
+Each project builds sequentially on the concepts and tools mastered in the previous one.
 
 ---
 
-## 🎯 Goals
+## 📌 Projects Outline
 
-The main goals of this repository are to:
+### 1. E-Commerce ETL Pipeline
+* **Tech Stack:** Python, Pandas, MySQL, SQL
 
-* Build practical Data Engineering projects
-* Understand complete data pipelines
-* Strengthen Python and SQL skills
-* Learn database design and data warehousing
-* Practice data cleaning and transformation
-* Understand ETL and ELT workflows
-* Learn pipeline automation and orchestration
-* Work with larger datasets and distributed processing
-* Build production-oriented engineering habits
+An end-to-end ETL pipeline that processes raw e-commerce sales data, cleans and transforms it using Python and Pandas, loads it into MySQL, and performs SQL-based business analysis.
+
+#### Pipeline Flow
+`CSV Data` ➔ `Python / Pandas` ➔ `Cleaning & Transformation` ➔ `MySQL Load` ➔ `SQL Analytics`
+
+#### Key Concepts Covered
+* **Ingestion & Cleaning:** CSV parsing, duplicate detection, missing-value handling, Pandas transformations.
+* **Database Management:** Python-to-MySQL integration, schema design, batch loading with `executemany()`.
+* **SQL Analytics:** Joins, aggregations, subqueries, date-based analysis, and window functions (`RANK()`, `ROW_NUMBER()`, `LAG()`, running totals).
 
 ---
 
+### 2. E-Commerce API Data Engineering Pipeline
+* **Tech Stack:** Python, Requests, Pandas, MySQL, SQL, REST API
+
+An end-to-end pipeline that extracts e-commerce data from the DummyJSON REST API, transforms nested JSON data into normalized relational datasets using Pandas, loads it into MySQL, and executes business-oriented SQL analytics.
+
+#### Pipeline Flow
+`REST API` ➔ `Python Requests` ➔ `JSON Normalization` ➔ `Pandas` ➔ `MySQL Load` ➔ `SQL Analytics`
+
+#### Data Architecture & Modeling
+Data is ingested from three core API endpoints (**Products**, **Users**, **Carts**) and normalized into **17 relational tables** (covering products, users, carts, reviews, addresses, companies, and transactions).
+
+Users ➔ Carts ➔ Cart Products ➔ Products
+
+
+#### Key Concepts Covered
+* **API Ingestion:** Extracting, parsing, and normalizing nested JSON structures.
+* **Data Modeling:** Relational modeling, primary/foreign key design, data validation.
+* **Advanced SQL Analytics:** Common Table Expressions (CTEs), window functions (`RANK()`, `DENSE_RANK()`, `NTILE()`, `LAG()`, `LEAD()`), customer spend analysis, and product ranking.
+
+---
+
+## 🎯 Project Goals
+
+* Build practical, end-to-end Data Engineering pipelines.
+* Master Python, Pandas, and advanced SQL analytical queries.
+* Practice relational data modeling and normalization strategies.
+* Work with external APIs, JSON payloads, and automated database loaders.
+* Scale workflows toward orchestration, distributed computing, and cloud infrastructure.
+
+---
 
 ## 👨‍💻 Author
 
-**Mohammad Kaif**
+**Mohammad Kaif**  
+*Building practical projects while learning Data Engineering step by step.*
 
-Building practical projects while learning Data Engineering step by step.
-
----
-
-⭐ More projects will be added as the learning journey progresses.
+* **GitHub:** [github.com/Mohammadkaif1809](https://github.com/Mohammadkaif1809)
