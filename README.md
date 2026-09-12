@@ -82,3 +82,4 @@ Users ➔ Carts ➔ Cart Products ➔ Products
 *Building practical projects while learning Data Engineering step by step.*
 
 * **GitHub:** [github.com/Mohammadkaif1809](https://github.com/Mohammadkaif1809)
+* **LinkedIn:** [linkedin.com/in/mohammadkaif18](https://www.linkedin.com/in/mohammadkaif18/)
