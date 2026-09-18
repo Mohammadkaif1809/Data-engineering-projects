@@ -430,8 +430,8 @@
           "position": {
             "x": 0,
             "y": 0,
-            "width": 12,
-            "height": 8
+            "width": 6,
+            "height": 7
           }
         },
         {
@@ -490,9 +490,9 @@
             }
           },
           "position": {
-            "x": 0,
-            "y": 8,
-            "width": 12,
+            "x": 6,
+            "y": 0,
+            "width": 6,
             "height": 7
           }
         },
@@ -555,8 +555,8 @@
           },
           "position": {
             "x": 0,
-            "y": 15,
-            "width": 12,
+            "y": 7,
+            "width": 6,
             "height": 7
           }
         },
@@ -618,9 +618,9 @@
             }
           },
           "position": {
-            "x": 0,
-            "y": 22,
-            "width": 12,
+            "x": 6,
+            "y": 7,
+            "width": 6,
             "height": 7
           }
         },
@@ -681,9 +681,9 @@
           },
           "position": {
             "x": 0,
-            "y": 29,
-            "width": 12,
-            "height": 8
+            "y": 14,
+            "width": 6,
+            "height": 7
           }
         },
         {
@@ -778,10 +778,10 @@
             }
           },
           "position": {
-            "x": 0,
-            "y": 37,
-            "width": 12,
-            "height": 6
+            "x": 6,
+            "y": 14,
+            "width": 6,
+            "height": 7
           }
         }
       ],
@@ -817,7 +817,10 @@
             "spec": {
               "frame": {
                 "showTitle": true,
-                "title": "Top 10 Products by Net Revenue"
+                "title": {
+                  "value": "Top 10 Products by Net Revenue",
+                  "fields": []
+                }
               },
               "version": 3,
               "widgetType": "bar",
