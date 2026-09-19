@@ -65,15 +65,56 @@ Users ➔ Carts ➔ Cart Products ➔ Products
 * **Advanced SQL Analytics:** Common Table Expressions (CTEs), window functions (`RANK()`, `DENSE_RANK()`, `NTILE()`, `LAG()`, `LEAD()`), customer spend analysis, and product ranking.
 
 ---
+### 3. ⚡ E-Commerce Data Engineering Pipeline — Databricks
+
+- **Tech Stack:** Databricks, PySpark, Spark SQL, Delta Lake, Unity Catalog, Python, SQL
+
+An end-to-end Data Engineering pipeline built on Databricks using a **Medallion Architecture (Bronze → Silver → Gold)** to transform e-commerce data into clean, validated, analytics-ready datasets for business reporting and dashboards.
+
+#### Pipeline Flow
+
+`E-Commerce Data` ➔ `Bronze Layer` ➔ `Silver Layer` ➔ `Gold Layer` ➔ `SQL Analytics` ➔ `Databricks Dashboard`
+
+#### Data Architecture & Modeling
+
+- **Bronze Layer:** Raw e-commerce data ingested into Databricks with minimal transformation.
+- **Silver Layer:** Data cleaning, validation, deduplication, standardization, and schema enforcement.
+- **Gold Layer:** Business-ready fact and dimension tables using dimensional modeling and a star-schema approach.
+- **Fact Table:** `gld_fact_order_items`
+- **Dimension Tables:** `gld_dim_products`, `gld_customers`, `gld_date`
+- **Denormalized Analytics Table:** `gld_fact_transactions_denorm`
+- **Unity Catalog:** Data organized across `bronze`, `silver`, and `gold` schemas.
+
+#### Key Concepts Covered
+
+- **Medallion Architecture:** Bronze → Silver → Gold data processing.
+- **Data Engineering:** Data ingestion, cleaning, transformation, validation, and data quality.
+- **Data Modeling:** Fact & dimension tables, star schema, and denormalization.
+- **PySpark:** DataFrame transformations and distributed data processing.
+- **Spark SQL:** Business analytics and complex SQL transformations.
+- **Advanced SQL:** CTEs, joins, aggregations, and window functions such as `RANK()`, `DENSE_RANK()`, `ROW_NUMBER()`, `LEAD()`, `LAG()`, and `NTH_VALUE()`.
+- **Delta Lake:** Lakehouse storage and table management.
+- **Unity Catalog:** Catalog, schema, and table organization.
+- **Databricks Dashboards:** Visualization of sales, product, customer, marketing, and channel analytics.
+- **Git & GitHub:** Version control and project management.
+
+---
 
 ## 🎯 Project Goals
 
 * Build practical, end-to-end Data Engineering pipelines.
-* Master Python, Pandas, and advanced SQL analytical queries.
-* Practice relational data modeling and normalization strategies.
-* Work with external APIs, JSON payloads, and automated database loaders.
-* Scale workflows toward orchestration, distributed computing, and cloud infrastructure.
-
+* Develop strong Python, SQL, and data processing skills.
+* Practice data ingestion, cleaning, transformation, and validation.
+* Work with structured, semi-structured, and API-based data sources.
+* Practice relational and dimensional data modeling.
+* Perform business-oriented analytics using SQL and Spark SQL.
+* Learn distributed data processing with PySpark and Apache Spark.
+* Build data pipelines using modern platforms such as Databricks.
+* Explore cloud-based data storage and processing using Amazon S3.
+* Develop workflow orchestration skills using Apache Airflow.
+* Progress toward scalable, production-oriented Data Engineering workflows.
+* Apply version control and project organization using Git and GitHub.
+  
 ---
 
 ## 👨‍💻 Author
