@@ -55,7 +55,7 @@ The pipeline follows the **Medallion Architecture** to progressively transform r
 
 ---
 
-## 🗂️ Unity Catalog & Data Model
+## Unity Catalog & Data Model
 
 The project uses **Unity Catalog** to organize data into three schemas:
 
@@ -88,7 +88,7 @@ ecommerce
 
 ---
 
-## 🔄 Data Pipeline Workflow
+## Data Pipeline Workflow
 
 The project separates **dimension** and **fact** processing.
 
@@ -150,7 +150,7 @@ sql/analytics_queries.sql
 
 The queries cover multiple business areas.
 
-### 💰 Revenue Analysis
+###  Revenue Analysis
 
 - Monthly revenue
 - Yearly revenue
@@ -159,14 +159,14 @@ The queries cover multiple business areas.
 - Revenue by sales channel
 - Revenue by discount range
 
-### 📦 Product Analysis
+### Product Analysis
 
 - Top products
 - Top product categories
 - Brand performance
 - Product rankings
 
-### 👥 Customer Analysis
+### Customer Analysis
 
 - Customer revenue
 - Customer rankings
@@ -179,7 +179,7 @@ The queries cover multiple business areas.
 - Promotion performance
 - Channel analysis
 
-### 🧠 Advanced SQL
+### Advanced SQL
 
 The project demonstrates:
 
@@ -220,19 +220,19 @@ An interactive **Databricks Dashboard** was created using the analytics-ready Go
 - Marketing Analysis
 - Channel Performance
 
-### 📸 Dashboard Screenshots
+###  Dashboard Screenshots
 
 #### Sales Performance
 
-![Sales Performance](./dashboard/screenshots)
+[Sales Performance](./dashboard/screenshots)
 
 #### Product & Customer Analytics
 
-![Product & Customer Analytics](./dashboard/screenshots)
+[Product & Customer Analytics](./dashboard/screenshots)
 
 #### Marketing & Channel Analytics
 
-![Marketing & Channel Analytics](./dashboard/screenshots)
+[Marketing & Channel Analytics](./dashboard/screenshots)
 
 ---
 
@@ -271,7 +271,7 @@ ecommerce-databricks-pipeline/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Technologies |
 |---|---|
@@ -289,7 +289,7 @@ ecommerce-databricks-pipeline/
 
 ---
 
-## 🧠 Data Engineering Concepts
+## Data Engineering Concepts
 
 - Medallion Architecture
 - ETL / ELT
@@ -316,7 +316,7 @@ ecommerce-databricks-pipeline/
 
 ---
 
-## 🎯 Business Use Cases
+## Business Use Cases
 
 The analytics layer can support business teams in understanding:
 
@@ -331,7 +331,7 @@ The analytics layer can support business teams in understanding:
 
 ---
 
-## 🚀 Project Outcome
+## Project Outcome
 
 This project demonstrates an end-to-end **Databricks Data Engineering workflow**:
 
