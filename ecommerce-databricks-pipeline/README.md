@@ -8,7 +8,7 @@ The project demonstrates **data ingestion, transformation, validation, dimension
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The pipeline follows the **Medallion Architecture** to progressively transform raw data into business-ready datasets.
 
@@ -51,7 +51,7 @@ The pipeline follows the **Medallion Architecture** to progressively transform r
 
 ### Architecture Diagram
 
-![E-Commerce Data Pipeline Architecture](./architecture/ecommerce-data-pipeline-architecture.png)
+[E-Commerce Data Pipeline Architecture](./architecture/ecommerce-data-pipeline-architecture.png)
 
 ---
 
